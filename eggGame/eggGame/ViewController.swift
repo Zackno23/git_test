@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     }
     var number = 10
     var text = "ゲーム開始"
-    
     let image0:UIImage = UIImage(named:"egg01")!
     let image1:UIImage = UIImage(named:"egg02")!
     let image2:UIImage = UIImage(named:"egg03")!
