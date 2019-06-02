@@ -18,17 +18,24 @@ class ViewController: UIViewController {
     }
     var number = 10
     var text = "ゲーム開始"
+    let image0:UIImage = UIImage(named:"egg01")!
+    let image1:UIImage = UIImage(named:"egg02")!
+    let image2:UIImage = UIImage(named:"egg03")!
+    @IBOutlet weak var button: UIButton!
     @IBOutlet weak var countLabel: UILabel!
     @IBOutlet weak var textLabel: UILabel!
     @IBAction func eggButton(_ sender: UIButton) {
         if Int(countLabel.text!)! >= 1{
             switch countLabel.text{
             case "5":
+                button.setImage(image1, for: .normal)
                 textLabel.text = "いいね"
             case "3":
                 textLabel.text = "あとちょっと"
             case "1":
                 textLabel.text = "ゲーム終了"
+                button.setImage(image2, for: .normal)
+
             default:
                 textLabel.text = ""
             }

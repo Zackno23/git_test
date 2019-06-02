@@ -45,6 +45,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="0Pw-7j-96m" id="ijP-xz-24V"/>
                         <outlet property="countLabel" destination="IRT-cy-Z9m" id="XdI-8F-5Ep"/>
                         <outlet property="textLabel" destination="Nl1-qD-gWw" id="st0-Xp-umt"/>
                     </connections>
