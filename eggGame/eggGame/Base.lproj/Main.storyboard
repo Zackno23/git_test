@@ -18,14 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRT-cy-Z9m">
-                                <rect key="frame" x="194" y="94" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRT-cy-Z9m">
+                                <rect key="frame" x="186" y="94" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nl1-qD-gWw">
-                                <rect key="frame" x="66" y="515" width="232" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nl1-qD-gWw">
+                                <rect key="frame" x="186" y="515" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -47,12 +47,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="IRT-cy-Z9m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0r7-1z-Dy5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Pw-7j-96m" secondAttribute="trailing" constant="20" id="64R-pS-qkE"/>
                             <constraint firstItem="IRT-cy-Z9m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="7ZS-hD-mTC"/>
                             <constraint firstItem="Nl1-qD-gWw" firstAttribute="top" secondItem="0Pw-7j-96m" secondAttribute="bottom" constant="50" id="Bpq-sa-Sxw"/>
                             <constraint firstItem="0Pw-7j-96m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ELw-li-Awa"/>
                             <constraint firstItem="0Pw-7j-96m" firstAttribute="top" secondItem="IRT-cy-Z9m" secondAttribute="bottom" constant="50" id="Pg9-FF-XvD"/>
+                            <constraint firstItem="0Pw-7j-96m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fdh-aS-V2g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pdG-c8-Luo" secondAttribute="bottom" constant="20" id="tOQ-MH-bW6"/>
+                            <constraint firstItem="Nl1-qD-gWw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u1c-lR-lQj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

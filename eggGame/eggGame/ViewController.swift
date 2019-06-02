@@ -56,6 +56,7 @@ class ViewController: UIViewController {
     @IBAction func continueButton(_ sender: UIButton) {
         number = 10
         countLabel.text = String(number)
+        textLabel.text = ""
         button.setImage(image0, for: .normal)
         continueButton.isEnabled = false
     }
