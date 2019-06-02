@@ -13,15 +13,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         countLabel.text = String(number)
         textLabel.text = text
+        continueButton.isEnabled = false
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     var number = 10
     var text = "ゲーム開始"
+    
     let image0:UIImage = UIImage(named:"egg01")!
     let image1:UIImage = UIImage(named:"egg02")!
     let image2:UIImage = UIImage(named:"egg03")!
+    
     @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var continueButton: UIButton!
     @IBOutlet weak var countLabel: UILabel!
     @IBOutlet weak var textLabel: UILabel!
     @IBAction func eggButton(_ sender: UIButton) {
@@ -35,6 +39,9 @@ class ViewController: UIViewController {
             case "1":
                 textLabel.text = "ゲーム終了"
                 button.setImage(image2, for: .normal)
+                if continueButton.isEnabled == false{
+                    continueButton.isEnabled = true
+                }
 
             default:
                 textLabel.text = ""
@@ -46,5 +53,11 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func continueButton(_ sender: UIButton) {
+        number = 10
+        countLabel.text = String(number)
+        button.setImage(image0, for: .normal)
+        continueButton.isEnabled = false
+    }
 }
 
