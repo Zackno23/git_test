@@ -21,12 +21,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var countLabel: UILabel!
     @IBOutlet weak var textLabel: UILabel!
     @IBAction func eggButton(_ sender: UIButton) {
-        if countLabel.text != "1"{
+        if Int(countLabel.text!)! >= 1{
             switch countLabel.text{
             case "5":
                 textLabel.text = "いいね"
             case "3":
                 textLabel.text = "あとちょっと"
+            case "1":
+                textLabel.text = "ゲーム終了"
             default:
                 textLabel.text = ""
             }
@@ -34,7 +36,6 @@ class ViewController: UIViewController {
             countLabel.text = String(number)
         }else{
             countLabel.text = "0"
-            textLabel.text = "ゲーム終了"
         }
     }
     
