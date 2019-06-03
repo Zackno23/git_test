@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var ryu: UIImageView!
     @IBAction func command(_ sender: Any) {
         for i in 1 ... 20{
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.25 * Double(i)) {
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.1 * Double(i)) {
                 self.ryu.image = UIImage(named: "attak\(i)")
             }
         }
