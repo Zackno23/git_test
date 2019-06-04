@@ -30,6 +30,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
     
     @IBOutlet weak var ryu: UIImageView!
     
+    func buttonActivate (right : Bool, down: Bool, lowerRight:Bool, y:Bool){
+        self.right.isEnabled = true
+        self.down.isEnabled = true
+        self.lowerRight.isEnabled = true
+        self.y.isEnabled = true
+    }
+    
     @IBAction func command(_ sender: UIButton) {
         sender.isEnabled = false
         if sender.titleLabel?.text! == correctCommand[commandCount] && commandCount < 3{
@@ -65,6 +72,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
             audioPlayer.play()
         }else{
             commandCount = 0
+            self.right.isEnabled = true
+            self.down.isEnabled = true
+            self.lowerRight.isEnabled = true
+            self.y.isEnabled = true
+            
         }
     }
 }
