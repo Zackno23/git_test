@@ -12,6 +12,7 @@
 		C7FFD8A422A42E290075FADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FFD8A222A42E290075FADE /* Main.storyboard */; };
 		C7FFD8A622A42E2A0075FADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FFD8A522A42E2A0075FADE /* Assets.xcassets */; };
 		C7FFD8A922A42E2A0075FADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FFD8A722A42E2A0075FADE /* LaunchScreen.storyboard */; };
+		C7FFD8B122A63EB80075FADE /* nc177750.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7FFD8B022A63EB80075FADE /* nc177750.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C7FFD8A522A42E2A0075FADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7FFD8A822A42E2A0075FADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7FFD8AA22A42E2A0075FADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FFD8B022A63EB80075FADE /* nc177750.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = nc177750.wav; path = ../../../nc177750.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				C7FFD8A022A42E290075FADE /* ViewController.swift */,
 				C7FFD8A222A42E290075FADE /* Main.storyboard */,
 				C7FFD8A522A42E2A0075FADE /* Assets.xcassets */,
+				C7FFD8B022A63EB80075FADE /* nc177750.wav */,
 				C7FFD8A722A42E2A0075FADE /* LaunchScreen.storyboard */,
 				C7FFD8AA22A42E2A0075FADE /* Info.plist */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FFD8B122A63EB80075FADE /* nc177750.wav in Resources */,
 				C7FFD8A922A42E2A0075FADE /* LaunchScreen.storyboard in Resources */,
 				C7FFD8A622A42E2A0075FADE /* Assets.xcassets in Resources */,
 				C7FFD8A422A42E290075FADE /* Main.storyboard in Resources */,
