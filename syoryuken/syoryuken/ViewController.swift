@@ -13,6 +13,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
     let attackImage = UIImageView()
     var audioPlayer: AVAudioPlayer!
     let correctCommand : Array <String> = ["→","↓","↘","Y"]
+    
     var commandCount : Int = 0
     
     
